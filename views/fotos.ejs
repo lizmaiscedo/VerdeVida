@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>VerdeVida | Galeria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">VERDE<span class="text-warning">VIDA</span></a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto text-uppercase small">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Nossa Origem</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Horta Comunitária</a></li>
+                            <li><a class="dropdown-item" href="#">Produtores Parceiros</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <h2 class="text-center text-success fw-bold mb-4">Galeria Verde</h2>
+        <div id="veganCarousel" class="carousel slide shadow-lg" data-bs-ride="carousel">
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1200&h=500&q=80" class="d-block w-100" alt="Horta">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25 rounded">
+                        <h5>Colheita Fresca</h5>
+                        <p>Tudo o que você compra vem direto do campo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&h=500&q=80" class="d-block w-100" alt="Comida">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25 rounded">
+                        <h5>Cozinha Sustentável</h5>
+                        <p>Receitas preparadas com amor e consciência.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#veganCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#veganCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

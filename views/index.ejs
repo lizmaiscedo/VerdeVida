@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerdeVida | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section { 
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1542223175-7582dd4ee7fb?auto=format&fit=crop&w=1350&q=80'); 
+            background-size: cover; background-position: center; color: white; padding: 120px 0; 
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">VERDE<span class="text-warning">VIDA</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto text-uppercase small">
+                    <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/produto">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/fotos">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Saúde que vem da terra.</h1>
+            <p class="lead mb-4">Produtos 100% plant-based, orgânicos e sustentáveis para o seu dia a dia.</p>
+            <a href="/produto" class="btn btn-warning btn-lg px-5 shadow fw-bold">Ver Produtos</a>
+        </div>
+    </header>
+
+    <section class="container py-5">
+        <h2 class="text-center mb-5 fw-bold text-success">Assinatura de Cestas Orgânicas</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center py-5">
+                        <h5 class="text-uppercase text-muted">Cesta Broto</h5>
+                        <h2 class="display-5 fw-bold">R$ 120<small class="fs-6">/mês</small></h2>
+                        <ul class="list-unstyled my-4">
+                            <li>5 itens da estação</li>
+                            <li>Entrega quinzenal</li>
+                        </ul>
+                        <button class="btn btn-outline-success rounded-pill w-100">Assinar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow border-success py-5">
+                    <div class="card-body text-center">
+                        <h5 class="text-uppercase text-success fw-bold">Cesta Colheita</h5>
+                        <h2 class="display-5 fw-bold">R$ 220<small class="fs-6">/mês</small></h2>
+                        <ul class="list-unstyled my-4">
+                            <li>12 itens variados</li>
+                            <li>Entrega semanal</li>
+                            <li>Brinde exclusivo</li>
+                        </ul>
+                        <button class="btn btn-success rounded-pill w-100 shadow">Assinar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center py-5">
+                        <h5 class="text-uppercase text-muted">Cesta Família</h5>
+                        <h2 class="display-5 fw-bold">R$ 380<small class="fs-6">/mês</small></h2>
+                        <ul class="list-unstyled my-4">
+                            <li>20 itens selecionados</li>
+                            <li>Entrega semanal</li>
+                        </ul>
+                        <button class="btn btn-outline-success rounded-pill w-100">Assinar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-secondary py-5">
+        <div class="container text-center">
+            <p class="mb-0 text-white">© 2024 VerdeVida Market. Sustentabilidade em cada detalhe.</p>
+            <p class="small">Trabalho em Dupla - Bootstrap 5</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
